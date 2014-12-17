@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/gnuhub/travis_ci_osx_template.svg)](https://travis-ci.org/gnuhub/travis_ci_osx_template)

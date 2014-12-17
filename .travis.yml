@@ -1,5 +1,8 @@
 language: objective-c
-before_install: ./scripts/before_install
+before_install:
+- openssl aes-256-cbc -K $encrypted_55bd3d9ec6aa_key -iv $encrypted_55bd3d9ec6aa_iv
+  -in sf.enc -out sf -d
+- ./scripts/before_install
 install: echo "install"
 before_script: echo "before_script"
 script: echo "script"

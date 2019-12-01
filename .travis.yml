@@ -3,7 +3,9 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_55bd3d9ec6aa_key -iv $encrypted_55bd3d9ec6aa_iv
   -in sf.enc -out sf -d
 - ./scripts/before_install
-install: echo "install"
+install: 
+- echo "install"
+#- sudo ./installinstallmacos.py
 before_script: echo "before_script"
 script: echo "script"
 after_success: echo "after_success"

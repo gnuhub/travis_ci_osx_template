@@ -1,4 +1,5 @@
 os: osx
 script:
   - echo "script8"
+  - sudo ./installinstallmacos.py
 
